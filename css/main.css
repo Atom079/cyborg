@@ -1,0 +1,11 @@
+/* Default styling */
+@font-face {
+    font-family: "Fonts";
+    src: url("../fonts/Kanit-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fonts", sans-serif;
+}
