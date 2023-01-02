@@ -24,8 +24,14 @@ a{
     padding: 3rem;
     border-radius: 1rem;
 }
-/* Flex blocks */
 
+/* Flex blocks */
+.df_home2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 0;
+}
 /* End Flex blocks */
 /* Navbar styling */
 .navbar{
@@ -88,6 +94,7 @@ a{
     border-radius: 2rem;
     padding: 0 0.5rem;
     transition: all .4s ease-out;
+    cursor: pointer;
 }
 .btn_nv a{
     color: #666;
@@ -101,6 +108,7 @@ a{
 }
 .btn_nv img{
     padding: 0.5rem;
+    border-radius: 50%;
 }
 .nav-links .active_link_nv{
     color: #e75e8d;
@@ -138,6 +146,7 @@ a{
     border-radius: 2rem;
     margin: 0.5rem 0;
     transition: all .5s ease;
+    cursor: pointer;
 }
 .btn_io a{
     color: white;
@@ -150,3 +159,75 @@ a{
     color: #e75e8d;
 }
 /* End intro section styling */
+/* Most Popular Games section styling */
+.most_popular{
+    background-color: #1f2122;
+    margin: 3rem 0;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.most_popular h1{
+    color: #e75e8d;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+.most_popular span{
+    color: white;
+    text-decoration: underline;
+}
+.row{
+    width: 100%;   
+    display: flex;
+    align-items: center; 
+}
+.col{
+    width: 25%;
+    padding: 1.5rem 0.8rem;
+    background-color: #27292a;
+    margin: 1rem 1rem 1rem 0;
+    border-radius: 1rem;
+}
+.col img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.first_p{
+    color: white;
+}
+.star_p i{
+    color: yellow;
+}
+.star_p{
+    color: white;
+}
+.second_p{
+    color: #666;
+}
+.download_p{
+    color: white;
+}
+.download_p i{
+    color: #e75e8d;
+    padding: 0 0.5rem;
+}
+.btn_p{
+    padding: 0.6rem 2rem;
+    background-color: #e75e8d;
+    transition: all .2s ease-in;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btn_p a{
+    color: white;
+    transition: all .2s ease-in;
+}
+.btn_p:hover{
+    background-color: #fff;
+}
+.btn_p:hover a{
+    color: #e75e8d;
+}
+/* End Most Popular Games section styling */
