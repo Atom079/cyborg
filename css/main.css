@@ -10,7 +10,7 @@
     font-family: "Fonts", sans-serif;
 }
 body{
-    background-color: #212529;
+    background-color: #1f2122;
 }
 a{
     text-decoration: none;
@@ -19,19 +19,24 @@ a{
     width: 90%;
     margin: 0 auto;
 }
+.main-content{
+    background-color: #27292A;
+    padding: 3rem;
+    border-radius: 1rem;
+}
 /* Flex blocks */
 
 /* End Flex blocks */
 /* Navbar styling */
 .navbar{
-    padding: 1rem;
+    padding: 1.5rem 1rem;
 }
 .content_nv{
     width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo{
     padding: 0 0.5rem;
@@ -53,7 +58,7 @@ a{
     border: none;
     color: #666;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1.023rem;
 }
 .form-control:focus{
     outline: none;
@@ -70,6 +75,10 @@ a{
 }
 .nav-links li a{
     color: #666;
+    transition: all .4s ease-out;
+}
+.nav-links li a:hover{
+    color: #e75e8d;
 }
 .btn_nv{
     display: flex;
@@ -78,10 +87,17 @@ a{
     background-color: #27292A;
     border-radius: 2rem;
     padding: 0 0.5rem;
+    transition: all .4s ease-out;
 }
 .btn_nv a{
     color: #666;
     padding: 0.5rem;
+}
+.btn_nv:hover{
+    background-color: #e75e8d;
+}
+.btn_nv:hover a{
+    color: white;
 }
 .btn_nv img{
     padding: 0.5rem;
@@ -90,3 +106,47 @@ a{
     color: #e75e8d;
 }
 /* End Navbar styling */
+/* intro section styling */
+.intro{
+    background-image: url("../imgs/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 4.5rem;
+    border-radius: 1rem;
+}
+.intro p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 1rem 0;
+}
+.intro h1{
+    color: white;
+    font-size: 3rem;
+    width: 60%;
+    line-height: 3.5rem;
+    padding: 0.5rem 0;
+}
+.intro span{
+    color: #e75e8d;
+}
+.btn_io{
+    padding: 0.5rem 2rem;
+    background-color: #e75e8d;
+    display: inline-block;
+    border-radius: 2rem;
+    margin: 0.5rem 0;
+    transition: all .5s ease;
+}
+.btn_io a{
+    color: white;
+    transition: all .5s ease;
+}
+.btn_io:hover{
+    background-color: white;
+}
+.btn_io:hover a{
+    color: #e75e8d;
+}
+/* End intro section styling */
