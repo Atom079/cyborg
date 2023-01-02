@@ -310,3 +310,13 @@ a{
     color: #e75e8d;
 }
 /* End Your gaming library section styling */
+/* Footer styling */
+.footer{
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+}
+.footer p{
+    padding: 0.5rem;
+}
+/* End Footer styling */
