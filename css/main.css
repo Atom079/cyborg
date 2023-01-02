@@ -28,9 +28,21 @@ a{
 /* Flex blocks */
 .df_home2{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0.3rem 0;
+}
+.df_home2_lib{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #27292a;
+}
+.text_with_p_lib{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /* End Flex blocks */
 /* Navbar styling */
@@ -163,7 +175,7 @@ a{
 .most_popular{
     background-color: #1f2122;
     margin: 3rem 0;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 2rem;
 }
 .most_popular h1{
@@ -182,7 +194,7 @@ a{
 }
 .col{
     width: 25%;
-    padding: 1.5rem 0.8rem;
+    padding: 1.5rem 0.5rem;
     background-color: #27292a;
     margin: 1rem 1rem 1rem 0;
     border-radius: 1rem;
@@ -231,3 +243,70 @@ a{
     color: #e75e8d;
 }
 /* End Most Popular Games section styling */
+/* Your gaming library section styling */
+.library{
+    background-color: #1f2122;
+    margin: 3rem 0;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+.library h1{
+    color: #e75e8d;
+    padding: 1rem 0;
+    font-size: 2.5rem; 
+}
+.library h1 span{
+    color: #fff;
+    text-decoration: underline;
+}
+.img_lib{
+    margin: 0 1rem;
+    border-radius: 1rem;
+}
+.first_lib{
+    color: white;
+}
+.second_lib{
+    color: #666;
+}
+.btn_lib{
+    padding: 1rem 2rem;
+    border: 1px solid #666;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.btn_lib a{
+    color: #fff;
+    transition: all .4s ease;
+}
+.btn_lib:hover{
+    background-color: white;
+}
+.btn_lib:hover a{
+    color: #e75e8d;
+}
+.btn2_lib{
+    padding: 0.6rem 2rem;
+    background-color: #e75e8d;
+    border-radius: 1rem;
+    display: block;
+    width: max-content;
+    margin: 1rem auto;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.btn2_lib a{
+    color: #fff;
+    transition: all .4s ease;
+}
+.btn2_lib:hover{
+    background-color: #fff;
+}
+.btn2_lib:hover a{
+    color: #e75e8d;
+}
+/* End Your gaming library section styling */
