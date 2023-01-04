@@ -43,6 +43,12 @@ a{
     width: 100%;
     height: 100%;
 }
+.btn_df_pm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 /* End Flex boxes */
 /* Navbar styling */
 .navbar{
@@ -268,7 +274,7 @@ a{
     font-size: 1.2rem;
 }
 /* End Intro section styling */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1330px) {
     .main_content_io_left{
         display: block;
     }
@@ -278,6 +284,9 @@ a{
     }
     .main_content_io_left{
         overflow: hidden;
+    }
+    .btn_df_pm{
+        display: block;
     }
 }
 /* Start stream section styling */
@@ -332,3 +341,123 @@ a{
     color: #e75e8d;
 }
 /* End Start stream section styling */
+/* Most popular stream section styling */
+.popular_stream{
+    padding: 1rem;
+    width: 100%;
+    background-color: #1f2122;
+    border-radius: 1rem;
+}
+.heading_pm{
+    color: #e75e8d;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+.heading_pm span{
+    color: white;
+    text-decoration: underline;
+}
+.col_pm{
+    margin: 0.5rem;
+    width: 33%;
+}
+.img_pm{
+    padding: 1rem;
+    position: relative;
+    height: 20rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: all .4s ease-in;
+}
+.img_pm p{
+    padding: 0.3rem 1rem;
+    background-color: #e75e8d;
+    color: white;
+    border-radius: 2rem;
+    transition: all .4s ease;
+    opacity: 0;
+    margin: 0.5rem;
+}
+.img_pm:hover p{
+    opacity: 1;
+}
+.first_btn_pm{
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+.img1_pm{
+    background-image: url("../imgs/stream-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img2_pm{
+    background-image: url("../imgs/stream-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img3_pm{
+    background-image: url("../imgs/stream-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4_pm{
+    background-image: url("../imgs/stream-04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text_pm{
+    padding: 0.5rem;
+    width: 100%;
+}
+.text_pm img{
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.text_pm h1{
+    font-size: 1.2rem;
+    color: white;
+}
+.text_pm i{
+    color: #e75e8d;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.text_pm p{
+    color: #e75e8d;
+}
+.btn_pm{
+    padding: 0.5rem 2rem;
+    width: max-content;
+    margin: 1rem auto;
+    background-color: #e75e8d;
+    border-radius: 2rem;
+    transition: all .4s ease;
+}
+.btn_pm a{
+    color: #fff;
+    transition: all .4s ease;
+}
+.btn_pm:hover{
+    background-color: #fff;
+}
+.btn_pm:hover a{
+    color: #e75e8d;
+}
+/* End Most popular stream section styling */
+/* Footer styling */
+.footer{
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+}
+.footer p{
+    padding: 0.5rem;
+}
+/* End Footer styling */
