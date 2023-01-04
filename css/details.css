@@ -30,6 +30,18 @@ a{
     justify-content: space-between;
     width: 100%;
 }
+.df_detail{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.imgs_ds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
 /* End Flex boxes */
 /* Navbar styling */
 .navbar{
@@ -139,3 +151,85 @@ a{
     background-color: #fff;
 }
 /* End Intro section styling */
+/* Details fortnite section styling */
+.heading_ds{
+    padding: 3rem 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+.details{
+    background-color: #1f2122;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.first_div_ds{
+    padding: 1rem 0;
+}
+.box1_ds{
+    background-color: #27292A;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 0.5rem;
+}
+.box1_ds p{
+    padding: 0.2rem 0;
+}
+.box2_ds p{
+    padding: 0.2rem 0;
+}
+.first_ds{
+    color: white;
+}
+.second_ds{
+    color: #666;
+}
+.star_ds i{
+    color: yellow;
+    padding: 0.5rem 0;
+}
+.download_ds i{
+    color: #e75e8d;
+    padding: 0.5rem 0;
+}
+.download_ds{
+    color: #fff;
+}
+.star_ds {
+    color: #fff;
+}
+.box2_ds{
+    background-color: #27292A;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.img_ds{
+    width: 32%;
+    border-radius: 1rem;
+}
+.text_ds{
+    padding: 1rem;
+    color: #666666;
+}
+.btn_ds{
+    margin: 1rem;
+    padding: 0.7rem;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 1px solid #e75e8d;
+    text-align: center;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+.btn_ds a{
+    color: #e75e8d;
+}
+.btn_ds:hover {
+    background-color: #fff;
+}
+/* End Details fortnite section styling */
