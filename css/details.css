@@ -233,3 +233,65 @@ a{
     background-color: #fff;
 }
 /* End Details fortnite section styling */
+/* Related games section styling */
+.related{
+    background-color: #1f2122;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+.related h1{
+    color: #e75e8d;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+}
+.related h1 span{
+    color: #fff;
+    text-decoration: underline;
+}
+.text_rd{
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid #27292A;
+}
+.img_rd img{
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.img_rd{
+    display: flex;
+    align-items: center;
+}
+.col_rd{
+    width: 50%;
+}
+.first_rd{
+    color: white;
+}
+.second_rd{
+    color: #666666;
+}
+.star_rd i{
+    color: yellow;
+    padding: 0.2rem;
+}
+.star_rd{
+    color: white;
+}
+.download_rd{
+    color: #fff;
+}
+.download_rd i{
+    color: #e75e8d;
+    padding: 0.2rem;
+}
+/* End Related games section styling */
+/* Footer styling */
+.footer{
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+}
+.footer p{
+    padding: 0.5rem;
+}
+/* End Footer styling */
