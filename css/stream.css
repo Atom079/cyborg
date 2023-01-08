@@ -24,14 +24,14 @@ a{
     padding: 3rem;
     border-radius: 1rem;
 }
-
+/* Navbar styling */
 /* Flex boxes */
-.df_browse{
+.df_stream{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.df_browse2{
+.df_stream2{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,14 +43,13 @@ a{
     width: 100%;
     height: 100%;
 }
-.btn_df_pm{
+.row_io{
+    padding: 0.5rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    border-bottom: 1px solid #333;
 }
 /* End Flex boxes */
-/* Navbar styling */
 .navbar{
     padding: 1.5rem 1rem;
 }
@@ -131,6 +130,16 @@ a{
     color: #e75e8d;
 }
 /* End Navbar styling */
+/* Footer styling */
+.footer{
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+}
+.footer p{
+    padding: 0.5rem;
+}
+/* End Footer styling */
 /* Intro section styling */
 .left_side_io{
     width: 70%;
@@ -159,7 +168,7 @@ a{
     width: 100%;
     height: 70%;
     color: #e75e8d;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
     margin-bottom: 1rem;
     border-radius: 1.5rem;
     display: flex;
@@ -235,40 +244,152 @@ a{
     color: white;
     text-decoration: underline;
 }
-.row{
-    padding: 1rem 0;
-    margin: 1rem 0; 
-    border-bottom: 1px solid #27292a;
+.number_io{
+    color: #fff;
+    padding: 1rem 0.5rem;
 }
-.text_io{
-    padding-top: 0.5rem;
+.img_io2{
+    width: 15%;
+    border-radius: 1rem;
+    margin: 1rem;
 }
-.game_io{
-    display: flex;
-    justify-content: space-between;
-   
-}
-.game_io img{
-    padding: 0 0.5rem;
-    border-radius: 2rem;
-}
-.btn_io{
-    padding: 0.8rem 1rem;
-    background-color: #27292A;
-    border-radius: 50%;
-}
-.btn_io a{
-    color: #444;
-}
-.end_io{
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
-}
-.end_io a{
+.correct_io{
     color: #e75e8d;
+    margin: 1rem;
+}
+.correct_io i{
+    padding: 0 0.5rem;
     font-size: 1.2rem;
 }
+.btn_io{
+    background-color: #e75e8d;
+    padding: 0.5rem 1.2rem;
+    margin-left: auto;
+    border-radius: 1rem;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+.btn_io a{
+    color: #fff;
+    transition: all .4s ease;
+}
+.btn_io:hover{
+    background-color: #fff;
+}
+.btn_io:hover a{
+    color: #e75e8d;
+}
+
+.streams{
+    padding: 1rem;
+    background-color: #1f2122;
+    border-radius: 1rem;
+}
+.streams h1{
+    color: #e75e8d;
+    font-size: 2.5rem;
+    margin: 0 0.5rem;
+}
+.streams h1 span{
+    color: #fff;
+    text-decoration: underline;
+}
+.row_ss{
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    justify-content: space-between;
+}
+.col_ss{
+    width: 25%;
+    height: 95%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.img-div_ss{
+    padding: 1rem;
+    height: 80%;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.img-div_ss:hover p{
+    opacity: 1;
+}
+.first_btn_ss{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.img-div_ss p{
+    background-color: #e75e8d;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+    transition: all .4s ease;
+    opacity: 0;
+}
+.img1_ss{
+    background-image: url("../imgs/stream-05.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.img2_ss{
+    background-image: url("../imgs/stream-06.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.img3_ss{
+    background-image: url("../imgs/stream-07.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.img4_ss{
+    background-image: url("../imgs/stream-08.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.text_ss{
+    display: flex;
+}
+.text_ss img{
+    border-radius: 1rem;
+    height: 50%;
+    margin: 0 0.5rem ;
+}
+.first_text_ss{
+    color: #e75e8d;
+}
+.second_text_ss{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.btn_ss{
+    padding: 0.5rem 2rem;
+    width: max-content;
+    margin: 2rem auto;
+    background-color: #e75e8d;
+    border-radius: 2rem;
+    transition: all .4s ease;
+}
+.btn_ss a{
+    color: #fff;
+    transition: all .4s ease;
+}
+.btn_ss:hover{
+    background-color: #fff;
+}
+.btn_ss:hover a{
+    color: #e75e8d;
+}
+/* EndStreams section styling */
 /* End Intro section styling */
 @media screen and (max-width: 1330px) {
     .main_content_io_left{
@@ -281,179 +402,23 @@ a{
     .main_content_io_left{
         overflow: hidden;
     }
-    .btn_df_pm{
-        display: block;
+    .main-content{
+        padding: 1.5rem;
+    }
+    .number_io{
+        padding: 0.2rem;
+    }
+    .right_side_io{
+        width: 50%;
+    }
+    .text_ss{
+        font-size: 1rem;
+    }
+    .second_text_ss{
+        font-size: 1rem;
+    }
+    .img-div_ss{
+        padding: 0.3rem;
     }
 }
-/* Start stream section styling */
-.start_stream{
-    padding: 1rem;
-    width: 100%;
-}
-.heading1_sm{
-    color: #e75e8d;
-    font-size: 2.5rem;
-    padding: 2rem;
-    text-align: center;
-}
-.heading1_sm span{
-    color: white;
-    text-decoration: underline;
-}
-.col_sm{
-    padding: 1.5rem;
-    border: 1px solid #444;
-    margin: 0 0.5rem;
-    border-radius: 2rem;
-    width: 40%;
-}
-.img_sm img{
-    border-radius: 50%;
-    margin: 0.5rem 0;
-}
-.heading_sm{
-    color: white;
-    padding: 0.5rem 0;
-}
-.p_sm{
-    color: #666666;
-}
-.btn_sm{
-    padding: 0.5rem 2rem;
-    width: max-content;
-    margin: 2rem auto;
-    background-color: #e75e8d;
-    border-radius: 2rem;
-    transition: all .4s ease;
-}
-.btn_sm a{
-    color: #fff;
-    transition: all .4s ease;
-}
-.btn_sm:hover{
-    background-color: #fff;
-}
-.btn_sm:hover a{
-    color: #e75e8d;
-}
-/* End Start stream section styling */
-/* Most popular stream section styling */
-.popular_stream{
-    padding: 1rem;
-    width: 100%;
-    background-color: #1f2122;
-    border-radius: 1rem;
-}
-.heading_pm{
-    color: #e75e8d;
-    font-size: 2.5rem;
-    padding: 0.5rem;
-}
-.heading_pm span{
-    color: white;
-    text-decoration: underline;
-}
-.col_pm{
-    margin: 0.5rem;
-    width: 33%;
-}
-.img_pm{
-    padding: 1rem;
-    position: relative;
-    height: 20rem;
-    border-radius: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    transition: all .4s ease-in;
-}
-.img_pm p{
-    padding: 0.3rem 1rem;
-    background-color: #e75e8d;
-    color: white;
-    border-radius: 2rem;
-    transition: all .4s ease;
-    opacity: 0;
-    margin: 0.5rem;
-}
-.img_pm:hover p{
-    opacity: 1;
-}
-.first_btn_pm{
-    position: absolute;
-    top: 2rem;
-    right: 1rem;
-}
-.img1_pm{
-    background-image: url("../imgs/stream-01.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.img2_pm{
-    background-image: url("../imgs/stream-02.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.img3_pm{
-    background-image: url("../imgs/stream-03.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.img4_pm{
-    background-image: url("../imgs/stream-04.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.text_pm{
-    padding: 0.5rem;
-    width: 100%;
-}
-.text_pm img{
-    padding: 0.5rem;
-    border-radius: 50%;
-}
-.text_pm h1{
-    font-size: 1.2rem;
-    color: white;
-}
-.text_pm i{
-    color: #e75e8d;
-    background-color: #fff;
-    border-radius: 50%;
-}
-.text_pm p{
-    color: #e75e8d;
-}
-.btn_pm{
-    padding: 0.5rem 2rem;
-    width: max-content;
-    margin: 1rem auto;
-    background-color: #e75e8d;
-    border-radius: 2rem;
-    transition: all .4s ease;
-}
-.btn_pm a{
-    color: #fff;
-    transition: all .4s ease;
-}
-.btn_pm:hover{
-    background-color: #fff;
-}
-.btn_pm:hover a{
-    color: #e75e8d;
-}
-/* End Most popular stream section styling */
-/* Footer styling */
-.footer{
-    text-align: center;
-    color: white;
-    padding: 1rem 0;
-}
-.footer p{
-    padding: 0.5rem;
-}
-/* End Footer styling */
+/* Streams section styling */
